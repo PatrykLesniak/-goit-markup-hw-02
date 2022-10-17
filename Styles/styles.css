@@ -1,0 +1,214 @@
+:root {
+    --header-color: #FFFFFF;
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --accent-color: #2196F3;
+    --third-color: #000000;
+    --button-color: #2196F3;
+    --background: #2F303A;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.web {
+    color: var(--accent-color);
+}
+
+.studio {
+    color: var(--third-color);
+}
+
+.third-web {
+    color:var(--header-color);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+.logo {
+    font-family: 'Raleway'
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* header */
+
+.menu-link {
+    font-style: medium;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color: var(--primary-text-color);
+}
+
+.menu-link-color {
+    color: var(--second-text-color)
+}
+
+.menu-link.current {
+    color: var(--accent-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color)
+}
+
+.upper-banner {
+    background-color: var(--background);
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing:0.06em;
+    text-transform: uppercase;
+    color: var(--header-color)
+}
+
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+
+
+.text-name {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.text-item {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color)
+}
+
+.team-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-prof {
+    font-style:normal;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+/* ------ footer -------*/
+
+.footer {
+    background-color: var(--background);
+}
+
+
+
+.footer-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    color: var(--header-color);
+}
+
+.footer-second-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-second-link:hover,
+.footer-second-link:focus {
+    color: var(--accent-color);
+}
+
+/* -------- Portfolio -------- */
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--primary-text-color)
+}
+
+.button:hover,
+.button:focus {
+    color: var(--header-color);
+    background-color: var(--accent-color);
+}
+.button-light {
+    background-color: var(--header-color);
+}
+
+.project-title {
+    font-weight: 700;
+    font: size 18px;
+    line-height: 2;
+    letter-spacing:0.06em;
+    color: var(--primary-text-color)
+}
+
+.project-text {
+    font-size: 16px;
+    line-height:1.88;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color)
+}
